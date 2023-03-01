@@ -29,10 +29,11 @@ def getCroppedImages(image, croppedLen):
     res = []
     curh, curw = 0, 0
     while curh < h:
+        curw = 0
         while curw < w:
             # todo crop
-            croppedImg = image.crop(curw, curh, curw + croppedLen, curh + croppedLen)
-            if h < croppedLen or curW < croppedLen:
+            croppedImg = image.crop((curw, curh, curw + croppedLen, curh + croppedLen))
+            if h < croppedLen or curw < croppedLen:
                 croppedImg.resize((croppedLen, croppedLen))
             res.append(croppedImg)
             curw += croppedLen
@@ -41,11 +42,12 @@ def getCroppedImages(image, croppedLen):
 
 
 def saveImgs(dir, images):
-    #os.mkdir(dir)
     for i, image in enumerate(images):
         image.save(dir + "/" + str(i) + ".png")
 
 images = getImages(imagePath)
-saveImgs(saveImagePath, images)
+#images[0].show()
+croppedImages = getCroppedImages(images[0], 800)
+saveImgs(saveImagePath, croppedImages)
 print(len(images))
 
