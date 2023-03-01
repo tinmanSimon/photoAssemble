@@ -47,7 +47,7 @@ def saveImgs(dir, images):
 
 images = getImages(imagePath)
 #images[0].show()
-croppedImages = getCroppedImages(images[0], 800)
-saveImgs(saveImagePath, croppedImages)
-print(len(images))
+#croppedImages = getCroppedImages(images[0], 800)
+#saveImgs(saveImagePath, croppedImages)
+#print(len(images))
 
