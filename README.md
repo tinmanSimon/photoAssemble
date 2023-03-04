@@ -6,5 +6,6 @@ Because you might have thousands of images, you may first want to reduce the lib
 Then you can call assembleImg to produce the photo mosaic result.
 note you can change the params of assembleImg to tailor the details of your photo mosaic.
 
-Example of end results:
+Original image:
+![End Result](relative%20path/pics/result_marlo.png?raw=true "marlo")
 
