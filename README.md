@@ -7,6 +7,8 @@ Then you can call assembleImg to produce the photo mosaic result.
 note you can change the params of assembleImg to tailor the details of your photo mosaic.
 
 Original image:
+
+
 ![Original Imag](https://github.com/tinmanSimon/photoAssemble/blob/master/pics/target_marlo.png)
 
 End Result:
