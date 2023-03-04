@@ -6,5 +6,11 @@ Because you might have thousands of images, you may first want to reduce the lib
 Then you can call assembleImg to produce the photo mosaic result.
 note you can change the params of assembleImg to tailor the details of your photo mosaic.
 
-Example of end results:
+Original image:
+
+
+![Original Imag](https://github.com/tinmanSimon/photoAssemble/blob/master/pics/target_marlo.png)
+
+End Result:
+![End Result](https://github.com/tinmanSimon/photoAssemble/blob/master/pics/result_marlo.png)
 
