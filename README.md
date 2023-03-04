@@ -8,6 +8,7 @@ note you can change the params of assembleImg to tailor the details of your phot
 
 Original image:
 ![Original Imag](https://github.com/tinmanSimon/photoAssemble/blob/master/pics/target_marlo.png)
+
 End Result:
 ![End Result](https://github.com/tinmanSimon/photoAssemble/blob/master/pics/result_marlo.png)
 
